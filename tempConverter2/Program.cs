@@ -34,8 +34,8 @@ namespace tempConverter
                     else
                     {
                         convertTemp(dblNumToConvert, ref dblCelsius, ref dblFahrenheit);
-                        Console.WriteLine($"{intNumToConvert} degrees Fahrenheit would be {intCelsius} degrees Celsius");
-                        Console.WriteLine($"{intNumToConvert} degrees Celsius would be {intFahrenheit} degrees Fahrenheit");
+                        Console.WriteLine($"{dblNumToConvert} degrees Fahrenheit would be {dblCelsius} degrees Celsius");
+                        Console.WriteLine($"{dblNumToConvert} degrees Celsius would be {dblFahrenheit} degrees Fahrenheit");
                         dblCelsius = 0;
                         dblFahrenheit = 0;
                     }
